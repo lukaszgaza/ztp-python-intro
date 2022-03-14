@@ -22,10 +22,10 @@ class MyTestCase(unittest.TestCase):
     def test_odd_even_count2(self):
         self.assertEqual(odd_even_count([1]), (1, 0))
 
-    def test_odd_even_count(self):
+    def test_odd_even_count3(self):
         self.assertEqual(odd_even_count([2]), (0, 1))
 
-    def test_odd_even_count(self):
+    def test_odd_even_count4(self):
         self.assertEqual(odd_even_count([]), (0, 0))
 
 
